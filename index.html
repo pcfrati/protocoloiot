@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Dynalight&family=Limelight&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <title>sobre</title>
+  
+</head>
+<body>
+  <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="icone.webp" alt="ícone wifi">
+            <ul>
+                <li><a href="nav.html">Wifi</a></li>
+            </ul>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">O QUE É</a></li>
+                <li><a href="aa.html">ONDE (OU NÃO) USAR</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <button class="add" id="add">
+    <i class="fas fa-plus"></i> Add Note
+  </button>
+  <button class="add-card" id="addCard">
+    <i class="fas fa-address-card"></i> Abrir Card
+  </button>
+
+  <!-- Modal Card --> 
+  <div class="overlay" id="overlay">
+    <div class="box">
+      <span></span>
+      <div class="content">
+        <h2>Alcance</h2>
+        <p>
+          O alcance do sinal Wi-Fi de qualquer ponto de acesso varia significativamente de dispositivo para dispositivo. Fatores que determinam o intervalo de um ponto de acesso incluem:
+          <li>O protocolo 802.11 específico executado</li>
+          <li>A força do seu transmissor de dispositivo</li>
+          <li>A natureza das obstruções físicas e / ou da interferência de rádio na área circundante</li>
+        </p>
+        <a href="#" id="closeCard">Voltar</a>
+      </div>
+    </div>
+    <div class="box">
+      <span></span>
+      <div class="content">
+        <h2>Consumo de Energia</h2>
+        <p>
+          Roteadores Wi-Fi são normalmente dispositivos de estado sólido e não possuem partes móveis, o que resulta em um consumo de energia muito baixo e, geralmente, ficam ligados 24 horas por dia para fornecer acesso ininterrupto à internet. Estimamos que um roteador Wi-Fi consuma de 2 a 20 watts, sendo 6 watts a média para um roteador sem fio.
+        </p>
+      </div>
+    </div>
+    <div class="box">
+      <span></span>
+      <div class="content">
+        <h2>Largura de Banda</h2>
+        <p>
+          O sinal de WiFi é transmitido pelos roteadores via ondas eletromagnéticas que se propagam na velocidade da luz. É medida em Hz, e opera nas frequências de 2.4 Ghz e 5 Ghz, dependendo do número de ciclos por segundo. A frequência de 2.4 Ghz trabalha com 2 opções de largura de banda, 20 Mhz e 40 Mhz, enquanto a de 5 Ghz trabalha em 20 Mhz, 40 Mhz, 80 Mhz e em novos equipamentos pode chegar até a 160 Mhz.
+        </p>
+      </div>
+    </div>
+    <div class="box">
+      <span></span>
+      <div class="content">
+        <p>
+          <img src="diagrama.png" alt="diagrama" width="270">
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
