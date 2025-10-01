@@ -6,6 +6,6 @@
 
 ## Descrição do Projeto
 Página desenvolvida utilizando apenas tecnologias client-side:
-HTML: Estrutura.
-CSS: Design e layout responsivo.
-JavaScript (JS): Interatividade.
+- HTML: Estrutura.
+- CSS: Design e layout responsivo.
+- JavaScript (JS): Interatividade.
